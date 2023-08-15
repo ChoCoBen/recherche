@@ -1,0 +1,1 @@
+{"total_loss_train": 2.4250097274780273, "train_accuracy": 1.0, "train_confidence": 0.9999849200248718, "_timestamp": 1668109571.0857272, "total_loss_test": 2.475940227508545, "test_accuracy": 0.9464367816091955, "test_confidence": 0.9972692131996155, "_runtime": 6385.843513250351, "_step": 26100, "_wandb": {"runtime": 6385}}

@@ -1,0 +1,35 @@
+# hardware
+device: 'cuda'
+gpu_num: '0'
+num_workers: 1
+
+# seed
+seed: 0
+
+# learning parameters
+batch_size: 10
+num_epochs: 15
+learning_rate: 0.0001
+test_every: 1000
+dropout : 0.3
+
+# network parameters
+name: 'classic_noDataAugmentation_withDepth2_resol100'
+num_classes: 29
+depth: True
+test_subject: 1
+ 
+# Data settings
+dataset : 'HGD'
+dataset_path: '/home/travail/Dataset/ndrczc35bt-1'
+data_augmentation: False
+data_aug_parameter: 
+    noise_factor: 0.2
+    nb_black_boxes: 10
+    rotation_max: 30
+    black_boxes_size: 8
+    resol: 1
+
+# directories
+checkpoint_dir: '/home/travail/Code/checkpoint'
+results_dir: '/home/travail/Code/Results.json'

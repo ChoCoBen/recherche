@@ -1,0 +1,12 @@
+# general settings
+project_name: 'HGD_Conv'
+group: 'Second conv'
+entity: 'chocoben'
+
+# upload settings
+upload_every: 50
+
+# network watching
+watch_conv: False
+watch_classifier: False
+watch_every: 50

@@ -1,0 +1,59 @@
+[INFO] WandB initialized
+[INFO] 10 gestures per bach, 3 batches per epoch, 20 epochs.
+[INFO] 60 batches total
+[INFO] EPOCH 0
+[INFO] EPOCH 1ing batch 3          00:00:02 elapsed | 5.68 it/s |  00:00:10 left
+[INFO] EPOCH 2ing batch 6          00:00:03 elapsed | 5.97 it/s |  00:00:09 left
+[INFO] EPOCH 3ing batch 9          00:00:03 elapsed | 5.77 it/s |  00:00:08 left
+[INFO] Processing batch 11         00:00:03 elapsed | 5.60 it/s |  00:00:08 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.39e+00   standard deviation = 2.37e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 5.39e-01   standard deviation = 1.72e-03
+{'total_loss_test': 3.3884058, 'test_accuracy': 0.0, 'test_confidence': 0.5387477}
+[INFO] EPOCH 4ing batch 12         00:00:04 elapsed | 6.02 it/s |  00:00:07 left
+[INFO] EPOCH 5ing batch 15         00:00:05 elapsed | 6.06 it/s |  00:00:07 left
+[INFO] EPOCH 6ing batch 18         00:00:05 elapsed | 5.97 it/s |  00:00:07 left
+[INFO] Processing batch 21         00:00:05 elapsed | 5.93 it/s |  00:00:06 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.40e+00   standard deviation = 3.21e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 5.86e-01   standard deviation = 3.64e-03
+{'total_loss_test': 3.4007936, 'test_accuracy': 0.0, 'test_confidence': 0.58588076}
+[INFO] EPOCH 7sed | 1.60 it/s |  00:00:24 left
+[INFO] EPOCH 8ing batch 24         00:00:06 elapsed | 6.06 it/s |  00:00:05 left
+[INFO] EPOCH 9ing batch 27         00:00:07 elapsed | 5.88 it/s |  00:00:05 left
+[INFO] EPOCH 10ng batch 30         00:00:07 elapsed | 5.99 it/s |  00:00:05 left
+[INFO] Processing batch 31
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.37e+00   standard deviation = 1.05e-05
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.20e-01   standard deviation = 1.31e-02
+{'total_loss_test': 3.368549, 'test_accuracy': 0.0, 'test_confidence': 0.61996675}
+[INFO] EPOCH 11ng batch 33         00:00:08 elapsed | 5.63 it/s |  00:00:04 left
+[INFO] EPOCH 12ng batch 36         00:00:09 elapsed | 5.90 it/s |  00:00:04 left
+[INFO] EPOCH 13ng batch 39         00:00:10 elapsed | 5.85 it/s |  00:00:03 left
+[INFO] Processing batch 41         00:00:10 elapsed | 5.91 it/s |  00:00:03 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.37e+00   standard deviation = 4.47e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.60e-01   standard deviation = 5.23e-03
+{'total_loss_test': 3.372047, 'test_accuracy': 0.0, 'test_confidence': 0.66029}
+[INFO] EPOCH 14ng batch 42         00:00:11 elapsed | 5.53 it/s |  00:00:03 left
+[INFO] EPOCH 15ng batch 45         00:00:11 elapsed | 5.46 it/s |  00:00:02 left
+[INFO] EPOCH 16ng batch 48         00:00:12 elapsed | 5.70 it/s |  00:00:02 left
+[INFO] Processing batch 51         00:00:12 elapsed | 5.49 it/s |  00:00:01 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.38e+00   standard deviation = 1.05e-02
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.71e-01   standard deviation = 1.17e-02
+{'total_loss_test': 3.3768497, 'test_accuracy': 0.0, 'test_confidence': 0.67123383}
+[INFO] EPOCH 17ed | 1.51 it/s |  00:00:05 left
+[INFO] EPOCH 18ng batch 54         00:00:13 elapsed | 5.84 it/s |  00:00:01 left
+[INFO] EPOCH 19ng batch 57         00:00:14 elapsed | 5.71 it/s |  00:00:00 left
+[INFO] Processing batch 60         00:00:14 elapsed | 5.76 it/s |  00:00:00 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.38e+00   standard deviation = 6.70e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.69e-01   standard deviation = 1.60e-02
+{'total_loss_test': 3.3755584, 'test_accuracy': 0.0, 'test_confidence': 0.6686646}

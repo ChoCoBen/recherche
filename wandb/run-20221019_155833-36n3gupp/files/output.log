@@ -1,0 +1,110 @@
+[INFO] WandB initialized
+[INFO] 10 gestures per bach, 1740 batches per epoch, 100 epochs.
+[INFO] 174000 batches total
+[INFO] EPOCH 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 1001       00:03:03 elapsed | 5.68 it/s |  08:27:25 left
+Traceback (most recent call last):
+  File "/home/travail/Code/Static_Gesture/main.py", line 62, in <module>
+    model.test(test_dataloader, use_wandb, wandb_cfg, global_step)
+  File "/home/travail/Code/Static_Gesture/src/core/model.py", line 193, in test
+    averaged_losses = average_losses(to_device(loss_history, 'cpu'))
+  File "/home/travail/Code/Static_Gesture/src/utils/helper.py", line 12, in to_device
+    return dict(
+  File "/home/travail/Code/Static_Gesture/src/utils/helper.py", line 13, in <genexpr>
+    (key, to_device(tensor, device)) for (key, tensor) in tensors.items()
+  File "/home/travail/Code/Static_Gesture/src/utils/helper.py", line 17, in to_device
+    (to_device(tensors[0], device), to_device(tensors[1], device))
+  File "/home/travail/Code/Static_Gesture/src/utils/helper.py", line 19, in to_device
+    else: raise NotImplementedError("Unknown type {0}".format(type(tensors)))
+NotImplementedError: Unknown type <class 'float'>

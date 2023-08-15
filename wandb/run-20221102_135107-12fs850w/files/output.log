@@ -1,0 +1,53 @@
+[INFO] WandB initialized
+[INFO] 10 gestures per bach, 3 batches per epoch, 20 epochs.
+[INFO] 60 batches total
+[INFO] EPOCH 0
+[INFO] EPOCH 1ing batch 3          00:00:02 elapsed | 6.05 it/s |  00:00:09 left
+[INFO] EPOCH 2ing batch 6          00:00:03 elapsed | 5.77 it/s |  00:00:09 left
+[INFO] EPOCH 3ing batch 9          00:00:03 elapsed | 6.05 it/s |  00:00:08 left
+[INFO] Processing batch 11         00:00:03 elapsed | 5.98 it/s |  00:00:08 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.39e+00   standard deviation = 2.62e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 5.40e-01   standard deviation = 1.50e-03
+[INFO] EPOCH 4ing batch 12         00:00:04 elapsed | 5.40 it/s |  00:00:08 left
+[INFO] EPOCH 5ing batch 15         00:00:05 elapsed | 5.61 it/s |  00:00:08 left
+[INFO] EPOCH 6ing batch 18         00:00:05 elapsed | 5.85 it/s |  00:00:07 left
+[INFO] Processing batch 21         00:00:06 elapsed | 5.68 it/s |  00:00:07 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.40e+00   standard deviation = 3.33e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 5.84e-01   standard deviation = 3.34e-03
+[INFO] EPOCH 7sed | 1.52 it/s |  00:00:25 left
+[INFO] EPOCH 8ing batch 24         00:00:07 elapsed | 5.67 it/s |  00:00:06 left
+[INFO] EPOCH 9ing batch 27         00:00:07 elapsed | 5.59 it/s |  00:00:05 left
+[INFO] EPOCH 10ng batch 30         00:00:08 elapsed | 5.70 it/s |  00:00:05 left
+[INFO] Processing batch 31
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.39e+00   standard deviation = 1.19e-02
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.32e-01   standard deviation = 5.52e-03
+[INFO] EPOCH 11ng batch 33         00:00:09 elapsed | 5.62 it/s |  00:00:04 left
+[INFO] EPOCH 12ng batch 36         00:00:09 elapsed | 5.60 it/s |  00:00:04 left
+[INFO] EPOCH 13ng batch 39         00:00:10 elapsed | 5.63 it/s |  00:00:03 left
+[INFO] Processing batch 41         00:00:10 elapsed | 5.75 it/s |  00:00:03 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.41e+00   standard deviation = 6.59e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.75e-01   standard deviation = 1.15e-03
+[INFO] EPOCH 14ng batch 42         00:00:11 elapsed | 5.74 it/s |  00:00:03 left
+[INFO] EPOCH 15ng batch 45         00:00:11 elapsed | 5.60 it/s |  00:00:02 left
+[INFO] EPOCH 16ng batch 48         00:00:12 elapsed | 5.75 it/s |  00:00:02 left
+[INFO] Processing batch 51         00:00:12 elapsed | 5.73 it/s |  00:00:01 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.43e+00   standard deviation = 3.48e-03
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.62e-01   standard deviation = 4.44e-03
+[INFO] EPOCH 17ed | 1.52 it/s |  00:00:05 left
+[INFO] EPOCH 18ng batch 54         00:00:13 elapsed | 5.81 it/s |  00:00:01 left
+[INFO] EPOCH 19ng batch 57         00:00:14 elapsed | 5.83 it/s |  00:00:00 left
+[INFO] Processing batch 60         00:00:15 elapsed | 5.78 it/s |  00:00:00 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.41e+00   standard deviation = 1.91e-02
+[INFO] 	 test_accuracy                  : mean = 0.00e+00   standard deviation = 0.00e+00
+[INFO] 	 test_confidence                : mean = 6.83e-01   standard deviation = 9.66e-03

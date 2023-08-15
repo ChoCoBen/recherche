@@ -1,0 +1,256 @@
+[INFO] WandB initialized
+[INFO] 10 gestures per bach, 1740 batches per epoch, 20 epochs.
+[INFO] 34800 batches total
+[INFO] EPOCH 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 1001       00:02:57 elapsed | 5.83 it/s |  01:36:34 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.93e+00   standard deviation = 3.60e-02
+[INFO] 	 test_accuracy                  : mean = 6.30e-01   standard deviation = 1.54e-01
+[INFO] 	 test_confidence                : mean = 7.81e-01   standard deviation = 2.99e-02
+{'total_loss_test': 2.9299207, 'test_accuracy': 0.6301149425287357, 'test_confidence': 0.7814984}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 1ing batch 1740       00:06:16 elapsed | 5.41 it/s |  01:41:52 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 2001       00:07:03 elapsed | 5.25 it/s |  01:44:12 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.75e+00   standard deviation = 5.55e-02
+[INFO] 	 test_accuracy                  : mean = 8.11e-01   standard deviation = 1.19e-01
+[INFO] 	 test_confidence                : mean = 8.25e-01   standard deviation = 4.04e-02
+{'total_loss_test': 2.7531703, 'test_accuracy': 0.8114942528735632, 'test_confidence': 0.8252678}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 2519       00:09:47 elapsed | 5.62 it/s |  01:35:44 left
+Traceback (most recent call last):
+  File "/home/travail/Code/Static_Gesture/main.py", line 56, in <module>
+    for batch in train_dataloader:
+  File "/home/travail/venv/lib64/python3.9/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/travail/venv/lib64/python3.9/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/travail/venv/lib64/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/travail/venv/lib64/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/travail/Code/Static_Gesture/src/hand_gesture_dataset.py", line 70, in __getitem__
+    rgb = cv2.imread(self.output['images'][idx][0])
+KeyboardInterrupt

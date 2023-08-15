@@ -1,0 +1,2327 @@
+[INFO] WandB initialized
+[INFO] 10 gestures per bach, 1740 batches per epoch, 15 epochs.
+[INFO] 26100 batches total
+[INFO] EPOCH 0
+[INFO] Processing batch 1
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 3.37e+00   standard deviation = 4.59e-03
+[INFO] 	 test_accuracy                  : mean = 3.61e-02   standard deviation = 6.07e-02
+[INFO] 	 test_confidence                : mean = 5.30e-01   standard deviation = 6.92e-04
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 1001       00:04:03 elapsed | 5.90 it/s |  01:10:52 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.92e+00   standard deviation = 1.99e-03
+[INFO] 	 test_accuracy                  : mean = 7.83e-01   standard deviation = 1.27e-01
+[INFO] 	 test_confidence                : mean = 8.11e-01   standard deviation = 8.83e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 1ing batch 1740       00:07:20 elapsed | 5.84 it/s |  01:09:32 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 2001       00:08:04 elapsed | 5.92 it/s |  01:07:49 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.68e+00   standard deviation = 3.89e-02
+[INFO] 	 test_accuracy                  : mean = 9.09e-01   standard deviation = 9.08e-02
+[INFO] 	 test_confidence                : mean = 9.03e-01   standard deviation = 6.61e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 3001       00:12:06 elapsed | 5.92 it/s |  01:05:04 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.58e+00   standard deviation = 1.90e-02
+[INFO] 	 test_accuracy                  : mean = 9.41e-01   standard deviation = 7.60e-02
+[INFO] 	 test_confidence                : mean = 9.12e-01   standard deviation = 1.50e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 2ing batch 3480       00:14:38 elapsed | 5.77 it/s |  01:05:17 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 4001       00:16:07 elapsed | 5.88 it/s |  01:02:39 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.56e+00   standard deviation = 2.54e-03
+[INFO] 	 test_accuracy                  : mean = 9.37e-01   standard deviation = 7.33e-02
+[INFO] 	 test_confidence                : mean = 9.44e-01   standard deviation = 4.83e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 5001       00:20:08 elapsed | 5.90 it/s |  00:59:34 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.49e+00   standard deviation = 2.13e-02
+[INFO] 	 test_accuracy                  : mean = 9.55e-01   standard deviation = 6.77e-02
+[INFO] 	 test_confidence                : mean = 9.66e-01   standard deviation = 1.19e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 3ing batch 5220       00:21:56 elapsed | 5.78 it/s |  01:00:10 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 6001       00:24:09 elapsed | 5.86 it/s |  00:57:10 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.47e+00   standard deviation = 1.32e-02
+[INFO] 	 test_accuracy                  : mean = 9.49e-01   standard deviation = 6.99e-02
+[INFO] 	 test_confidence                : mean = 9.77e-01   standard deviation = 6.72e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 4ing batch 6960       00:28:04 elapsed | 5.73 it/s |  00:55:42 left
+
+
+
+[INFO] Processing batch 7001       00:28:10 elapsed | 5.88 it/s |  00:54:08 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.47e+00   standard deviation = 8.18e-03
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 5.99e-02
+[INFO] 	 test_confidence                : mean = 9.68e-01   standard deviation = 1.11e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 8001       00:32:11 elapsed | 5.84 it/s |  00:51:41 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.50e+00   standard deviation = 1.34e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.71e-02
+[INFO] 	 test_confidence                : mean = 9.77e-01   standard deviation = 4.74e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 5ing batch 8700       00:35:21 elapsed | 5.85 it/s |  00:49:32 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 9001       00:36:12 elapsed | 5.92 it/s |  00:48:08 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.47e+00   standard deviation = 1.48e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.12e-02
+[INFO] 	 test_confidence                : mean = 9.72e-01   standard deviation = 1.64e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 10001      00:40:12 elapsed | 5.84 it/s |  00:45:56 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.53e+00   standard deviation = 9.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.55e-01   standard deviation = 6.36e-02
+[INFO] 	 test_confidence                : mean = 9.52e-01   standard deviation = 4.25e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 6ing batch 10440      00:42:38 elapsed | 5.87 it/s |  00:44:29 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 11001      00:44:13 elapsed | 5.87 it/s |  00:42:50 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.45e+00   standard deviation = 1.61e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.77e-02
+[INFO] 	 test_confidence                : mean = 9.80e-01   standard deviation = 1.15e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 12001      00:48:14 elapsed | 5.83 it/s |  00:40:19 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.54e+00   standard deviation = 1.55e-02
+[INFO] 	 test_accuracy                  : mean = 9.46e-01   standard deviation = 7.43e-02
+[INFO] 	 test_confidence                : mean = 9.13e-01   standard deviation = 1.21e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 7ing batch 12180      00:49:55 elapsed | 5.93 it/s |  00:39:05 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 13001      00:52:15 elapsed | 5.86 it/s |  00:37:15 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.48e+00   standard deviation = 4.02e-02
+[INFO] 	 test_accuracy                  : mean = 9.69e-01   standard deviation = 5.41e-02
+[INFO] 	 test_confidence                : mean = 9.79e-01   standard deviation = 1.07e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 8ing batch 13920      00:56:02 elapsed | 5.88 it/s |  00:34:30 left
+
+
+
+
+
+
+
+[INFO] Processing batch 14001      00:56:15 elapsed | 5.92 it/s |  00:34:04 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.48e+00   standard deviation = 7.59e-03
+[INFO] 	 test_accuracy                  : mean = 9.56e-01   standard deviation = 5.89e-02
+[INFO] 	 test_confidence                : mean = 9.72e-01   standard deviation = 1.87e-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 15001      01:00:16 elapsed | 5.93 it/s |  00:31:10 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.43e+00   standard deviation = 2.15e-03
+[INFO] 	 test_accuracy                  : mean = 9.66e-01   standard deviation = 5.92e-02
+[INFO] 	 test_confidence                : mean = 9.97e-01   standard deviation = 1.36e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] EPOCH 9ing batch 15660      01:03:19 elapsed | 5.87 it/s |  00:29:39 left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 16001      01:04:17 elapsed | 5.83 it/s |  00:28:52 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.45e+00   standard deviation = 3.09e-03
+[INFO] 	 test_accuracy                  : mean = 9.53e-01   standard deviation = 6.75e-02
+[INFO] 	 test_confidence                : mean = 9.81e-01   standard deviation = 4.89e-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[INFO] Processing batch 17001      01:08:17 elapsed | 5.93 it/s |  00:25:35 left
+[INFO] Average losses on test set
+[INFO] 	 total_loss_test                : mean = 2.47e+00   standard deviation = 3.32e-02
+[INFO] 	 test_accuracy                  : mean = 9.64e-01   standard deviation = 6.15e-02
+[INFO] 	 test_confidence                : mean = 9.87e-01   standard deviation = 2.29e-03
+[INFO] Processing batch 17015      01:09:30 elapsed | 5.91 it/s |  00:25:37 left
+[INFO] Processing batch 17027      01:09:32 elapsed | 5.90 it/s |  00:25:38 left
+[INFO] Processing batch 17038      01:09:34 elapsed | 5.91 it/s |  00:25:34 left
+[INFO] Processing batch 17050      01:09:36 elapsed | 5.85 it/s |  00:25:47 left
+[INFO] Processing batch 17062      01:09:38 elapsed | 5.82 it/s |  00:25:53 left
+[INFO] Processing batch 17074      01:09:40 elapsed | 5.94 it/s |  00:25:20 left
+[INFO] Processing batch 17086      01:09:42 elapsed | 5.91 it/s |  00:25:24 left
+[INFO] Processing batch 17097      01:09:44 elapsed | 5.89 it/s |  00:25:27 left
+[INFO] Processing batch 17109      01:09:46 elapsed | 5.89 it/s |  00:25:26 left
+[INFO] Processing batch 17121      01:09:48 elapsed | 5.96 it/s |  00:25:06 left
+[INFO] Processing batch 17133      01:09:50 elapsed | 5.86 it/s |  00:25:31 left
+[INFO] Processing batch 17144      01:09:52 elapsed | 5.86 it/s |  00:25:27 left
+[INFO] Processing batch 17156      01:09:54 elapsed | 5.82 it/s |  00:25:35 left
+[INFO] Processing batch 17168      01:09:56 elapsed | 5.96 it/s |  00:24:58 left
+[INFO] Processing batch 17180      01:09:58 elapsed | 5.88 it/s |  00:25:17 left
+[INFO] Processing batch 17191      01:10:00 elapsed | 5.94 it/s |  00:25:00 left
+[INFO] Processing batch 17203      01:10:02 elapsed | 5.90 it/s |  00:25:08 left
+[INFO] Processing batch 17215      01:10:04 elapsed | 5.87 it/s |  00:25:14 left
+[INFO] Processing batch 17227      01:10:06 elapsed | 5.89 it/s |  00:25:06 left
+[INFO] Processing batch 17238      01:10:08 elapsed | 5.86 it/s |  00:25:13 left
+[INFO] Processing batch 17250      01:10:10 elapsed | 5.93 it/s |  00:24:53 left
+[INFO] Processing batch 17262      01:10:12 elapsed | 5.85 it/s |  00:25:09 left
+[INFO] Processing batch 17274      01:10:14 elapsed | 5.92 it/s |  00:24:50 left
+[INFO] Processing batch 17285      01:10:16 elapsed | 5.90 it/s |  00:24:54 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] Processing batch 17297      01:10:18 elapsed | 5.84 it/s |  00:25:07 left
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.60e-01   standard deviation = 6.33e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.58e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.52e-01   standard deviation = 6.76e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.51e-01   standard deviation = 6.96e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.43e-01   standard deviation = 7.65e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.45e-01   standard deviation = 7.04e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.57e-01   standard deviation = 6.15e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.50e-01   standard deviation = 6.69e-02
+[INFO] 	 test_accuracy                  : mean = 9.49e-01   standard deviation = 7.12e-02
+[INFO] 	 test_accuracy                  : mean = 9.49e-01   standard deviation = 7.12e-02
