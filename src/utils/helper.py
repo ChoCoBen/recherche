@@ -3,7 +3,7 @@ import yaml
 import os
 import shutil
 from torch.utils.data import DataLoader
-from src import hand_gesture_dataset
+from src import hand_gesture_dataset, cobotic_dataset
 import wandb
 import json
 from datetime import datetime
@@ -48,24 +48,33 @@ def setup_device(cfg: dict):
     return device
 
 def setup_dataloaders(cfg):
+    print('[INFO] Creating dataloader')   
     assert os.path.exists(cfg['dataset_path'])
-    datasetObject = getattr(hand_gesture_dataset, cfg['dataset'])
-    print('[INFO] Creating dataloader')
-
-    train_dataset = datasetObject(cfg['dataset_path'],
+    try:
+        datasetObject = getattr(hand_gesture_dataset, cfg['dataset'])
+        train_dataset = datasetObject(cfg['dataset_path'],
                                    depth=cfg['depth'],
                                    test=False, 
                                    transform=cfg['data_augmentation'],
                                    data_aug_parameter=cfg['data_aug_parameter'],
                                    test_subject=cfg['test_subject'])
     
-    test_dataset = datasetObject(cfg['dataset_path'],
+        test_dataset = datasetObject(cfg['dataset_path'],
                                  depth=cfg['depth'],
                                  test=True,
                                  transform=False,
                                  data_aug_parameter=cfg['data_aug_parameter'],
                                  test_subject=cfg['test_subject'])
-                                 
+    except AttributeError as e:
+        datasetObject = getattr(cobotic_dataset, cfg['dataset'])
+        train_dataset = datasetObject(cfg['dataset_path'],
+                                      test=False,
+                                      cfg={'depth':cfg['depth']},
+                                      test_subject=cfg['test_subject'])
+        test_dataset = datasetObject(cfg['dataset_path'],
+                                      test=True,
+                                      cfg={'depth':cfg['depth']},
+                                      test_subject=cfg['test_subject'])                              
 
     train_dataloader = DataLoader(dataset=train_dataset, batch_size=cfg['batch_size'], shuffle=True, drop_last=True)
     test_dataloader = DataLoader(dataset=test_dataset, batch_size=cfg['batch_size'], shuffle=True, drop_last=True)

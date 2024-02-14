@@ -97,6 +97,3 @@ def display_image_BB(image):
     ax.imshow(images_rgb)
 
     plt.show()
-
-def display_rect_BB(image, BB):
-    pass

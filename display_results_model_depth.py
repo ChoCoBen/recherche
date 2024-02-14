@@ -20,7 +20,7 @@ param = {
 }
 
 seed = 0
-name = 'classic_noDataAugmentation_withDepth_resol100'
+name = 'classic_noDataAugmentation_withDepth2_resol100'
 
 subjects = ['subject1', 'subject2', 'subject3', 'subject4', 'subject5']
 checks_dir = []
@@ -47,7 +47,7 @@ for check_dir in checks_dir:
     files_list = os.listdir(check_dir)
 
     network_file = [file for file in files_list if not file.endswith('.json')][0]
-    mod = model.ConvModel({'dropout': 0.3, 'learning_rate': 0.0001})
+    mod = model.ConvModel({'dropout': 0.3, 'learning_rate': 0.0001, 'num_classes': 29})
     mod.load_state_dict(torch.load(join(check_dir, network_file))['CONV'])
     mod.to('cuda')
     mod.eval()
@@ -81,3 +81,5 @@ acc = {
 }
 
 print(acc)
+#V1 {'acc_mean': [0.9636781609195403, 0.9800000000000002, 0.8740229885057472, 0.9645977011494254, 0.9767816091954024], 'acc_mean_no_depth': [0.9675862068965518, 0.9827586206896551, 0.8554022988505747, 0.9616091954022988, 0.9728735632183909]}
+#V2 {'acc_mean': [0.9241379310344827, 0.9836781609195402, 0.8374712643678163, 0.9416091954022989, 0.9820689655172414], 'acc_mean_no_depth': [0.9257471264367817, 0.9852873563218392, 0.8222988505747127, 0.9427586206896552, 0.9554022988505748]}

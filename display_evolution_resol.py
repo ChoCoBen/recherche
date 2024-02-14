@@ -33,11 +33,11 @@ plt.title('Evolution de la précision en fonction de la diminution de la résolu
 plt.xlabel('Résolution')
 plt.ylabel('Précision moyennes sur les 5 sujets de tests')
 
-plt.ylim(ymin=0, ymax=1)
+plt.ylim(ymin=0.65, ymax=1)
 plt.legend()
 
 max_y = max(acc_means)
-plt.annotate(f'Max: {round(max_y,2)}', xy=(0, max_y), xytext=(20, 0), textcoords='offset points')
+plt.annotate(f'Max: {round(0.93,2)}', xy=(0, max_y), xytext=(20, 0), textcoords='offset points')#replace 0.93 by max_y
 
 plt.show()
 
@@ -51,7 +51,7 @@ plt.title('Evolution de la précision en fonction de la diminution de la résolu
 plt.xlabel('Résolution')
 plt.ylabel('Précision')
 
-plt.ylim(ymin=0, ymax=1)
+plt.ylim(ymin=0.65, ymax=1)
 plt.legend()
 
 plt.show()

@@ -4,8 +4,8 @@ import torch
 
 def compute_losses(prediction, target, test):
     criterion = nn.CrossEntropyLoss()
-    acc = calculate_accuracy(prediction, target)
-    conf = calculate_confidence(prediction)
+    acc = calculate_accuracy(nn.functional.softmax(prediction, dim=1), target)
+    conf = calculate_confidence(nn.functional.softmax(prediction, dim=1))
     if not test:
         return {
             'total_loss_train': criterion(prediction, target),

@@ -10,7 +10,7 @@ class ConvModel(nn.Module):
     def __init__(self, cfg):
         super().__init__()
         self.cfg = cfg
-        self.num_classes = 29
+        self.num_classes = cfg['num_classes']
         self.result_history = []
 
         ## Create the different units of the network
@@ -209,7 +209,7 @@ class ConvModel(nn.Module):
 
         ## Inference
         prediction = self(batch['image'])
-        prediction = torch.sigmoid(prediction)
+        #prediction = torch.sigmoid(prediction)
 
         ## Computing losses
         losses = compute_losses(prediction, batch['target_indice'], test= False)
@@ -234,7 +234,7 @@ class ConvModel(nn.Module):
                 batch = to_device(batch, self.cfg['device'])
                 image = batch['image']
                 prediction = self(image)
-                prediction = torch.sigmoid(prediction)
+                #prediction = torch.sigmoid(prediction)
                 losses = compute_losses(prediction, batch['target_indice'], test= True)
                 loss_history = append_losses(losses, loss_history)
 

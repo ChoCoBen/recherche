@@ -5,6 +5,7 @@ import numpy as np
 import cv2
 import torch
 from src.utils.BButils import BBdataset_helper
+from src.utils.dataset_helper import reduce_resolution
 
 class HBBD(Dataset):
     """This class represents the Hand bounding boxes detection dataset and is intended for use with torch.Dataloader"""
@@ -19,6 +20,7 @@ class HBBD(Dataset):
         """
         super().__init__()
         self.path_to_dataset = path_to_dataset
+        self.resol = cfg['resol'] if 'resol' in cfg else 1
 
         train_subjects = os.listdir(self.path_to_dataset)
         train_subjects.sort()
@@ -69,7 +71,6 @@ class HBBD(Dataset):
                     self.output['targets_gesture'][count_subject + count_image] = np.array(gestures)
 
                     count_image += 1
-            
             count_subject += 1950 # 1950 images with single hand gestures
 
     def __getitem__(self, idx) -> torch.Tensor:
@@ -81,6 +82,9 @@ class HBBD(Dataset):
         output = {'image': None, 'First_hand': None, 'Second_hand': None, 'First_gesture': None, 'Second_gesture': None}
         image = cv2.imread(self.output['images'][idx][0])
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+        if self.resol != 1:
+            image = reduce_resolution(image, self.resol)
 
         output['image'] = image
         output['First_hand'] = self.output['targets'][idx][0]

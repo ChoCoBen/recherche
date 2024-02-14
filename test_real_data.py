@@ -42,5 +42,33 @@ prediction = torch.sigmoid(prediction)
 indice_pred = torch.argmax(prediction)
 print(indice_pred)
 
-dict_gesture = {0:'poing droite', 1:'poing gauche', 2:'1 droite', 3:'1 gauche', 4:'2 droite', 5:'2 gauche', 6:'3 droite', 7:'3 gauche', 8:'4 droite', 9:'4 gauche', 10:'5 droite', 11:'5 gauche', 12:'6 droite', 13:'6 gauche', 14:'7 droite', 15:'7 gauche', 16:'8 droite', 17:'8 gauche', 18:'9 droite', 19:'9 gauche', 20:'geste non enregistré', 21:'geste non enregistré', 22:'geste non enregistré', 23:'geste non enregistré', 24:'geste non enregistré', 25:'geste non enregistré', 26:'geste non enregistré', 27:'geste non enregistré', 28:'geste non enregistré'}
+dict_gesture = {0:'poing droite',
+                1:'poing gauche',
+                2:'1 droite',
+                3:'1 gauche',
+                4:'2 droite',
+                5:'2 gauche',
+                6:'3 droite',
+                7:'3 gauche',
+                8:'4 droite',
+                9:'4 gauche',
+                10:'5 droite',
+                11:'5 gauche',
+                12:'6 droite',
+                13:'6 gauche',
+                14:'7 droite',
+                15:'7 gauche',
+                16:'8 droite',
+                17:'8 gauche',
+                18:'9 droite',
+                19:'9 gauche',
+                20:'geste non enregistré',
+                21:'geste non enregistré',
+                22:'geste non enregistré',
+                23:'geste non enregistré',
+                24:'geste non enregistré',
+                25:'geste non enregistré',
+                26:'geste non enregistré',
+                27:'geste non enregistré',
+                28:'geste non enregistré'}
 print(dict_gesture[indice_pred.item()])

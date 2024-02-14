@@ -8,20 +8,20 @@ seed: 0
 
 # learning parameters
 batch_size: 10
-num_epochs: 15
+num_epochs: 20
 learning_rate: 0.0001
-test_every: 1000
+test_every: 2000
 dropout : 0.3
 
 # network parameters
-name: 'classic_noDataAugmentation_withDepth2_resol100'
-num_classes: 29
+name: 'classic_cobotic_10s_v2'
+num_classes: 10
 depth: True
 test_subject: 1
  
 # Data settings
-dataset : 'HGD'
-dataset_path: '/home/travail/Dataset/ndrczc35bt-1'
+dataset : 'CHD'
+dataset_path: '/store/travail/data_sorted'
 data_augmentation: False
 data_aug_parameter: 
     noise_factor: 0.2
@@ -31,5 +31,5 @@ data_aug_parameter:
     resol: 1
 
 # directories
-checkpoint_dir: '/home/travail/Code/checkpoint'
-results_dir: '/home/travail/Code/Results.json'
+checkpoint_dir: '/store/travail/checkpoint'
+results_dir: '/store/travail/Results.json'
