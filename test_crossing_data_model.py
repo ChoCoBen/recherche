@@ -66,71 +66,100 @@ def test_model_on_data(model, data, model_type):
 
 print("[INFO] Test of Hands model on cobotic data")
 
-## Load and setup the model
-PATH = "/home/travail/Code/checkpoint/run_2023-03-24_11h28m47s/classic_noDataAugmentation_noDepth_resol100_seed0_subject5"
+# ## Load and setup the model
+# PATH = [f"/home/travail/Code/checkpoint/run_2023-03-15_14h57m23s/classic_noDataAugmentation_noDepth_resol100_seed0_subject1",
+#         f"/home/travail/Code/checkpoint/run_2023-03-15_12h50m54s/classic_noDataAugmentation_noDepth_resol100_seed0_subject2",
+#         f"/home/travail/Code/checkpoint/run_2023-03-14_22h29m30s/classic_noDataAugmentation_noDepth_resol100_seed0_subject3",
+#         f"/home/travail/Code/checkpoint/run_2023-03-21_16h14m37s/classic_noDataAugmentation_noDepth_resol100_seed0_subject4",
+#         f"/home/travail/Code/checkpoint/run_2023-03-24_11h28m47s/classic_noDataAugmentation_noDepth_resol100_seed0_subject5"]
 cfg = "./configs/train.yaml"
 cfg = load_config(cfg)
-cfg['num_classes'] = 29
-model_type = 'Hands'
+# cfg['num_classes'] = 29
+# model_type = 'Hands'
+# global_acc_list = []
 
-mod = model.ConvModel(cfg)
-mod.load_state_dict(torch.load(PATH)['CONV'])
-mod.to('cuda')
-mod.eval()
+# for idx, path in enumerate(PATH):
+#     mod = model.ConvModel(cfg)
+#     mod.load_state_dict(torch.load(path)['CONV'])
+#     mod.to('cuda')
+#     mod.eval()
 
-global_acc = 0
-total_nb_data = 0
-for test_subject in range(1,6):
-    ## Creating dataloader
-    dataset_path = '/store/travail/data_sorted'
+#     global_acc = 0
+#     total_nb_data = 0
+#     for test_subject in range(1,6):
+#         ## Creating dataloader
+#         dataset_path = '/store/travail/data_sorted'
 
-    dataset = cobotic_dataset.CHD(dataset_path, test=False, test_subject=test_subject)
-    dataloader = DataLoader(dataset=dataset, batch_size=10, shuffle=False, drop_last=True)
+#         dataset = cobotic_dataset.CHD(dataset_path, test=True, test_subject=test_subject)
+#         dataloader = DataLoader(dataset=dataset, batch_size=10, shuffle=False, drop_last=True)
 
-    total_nb_data += len(dataloader)
+#         total_nb_data += len(dataloader)
 
-    global_acc += test_model_on_data(mod, dataloader, model_type)
+#         global_acc += test_model_on_data(mod, dataloader, model_type)
+#         print(f"For model {idx}, Accuracy for subject {test_subject}: DONE")
 
-global_acc = (global_acc/total_nb_data) * 17/13
-print()
-print(f"La précision du modèle entraîné sur HANDS et testé sur Cobotics est de {global_acc}")
+#     global_acc = (global_acc/total_nb_data) * 17/13
+#     print()
+#     print(f"La précision du modèle entraîné sur HANDS et testé sur Cobotics est de {global_acc}")
+#     global_acc_list.append(global_acc)
+
+# print(global_acc_list)
 
 print("[INFO] Test of cobotic model on Hands data")
 
 ## Load and setup the model
-PATH = "/store/travail/checkpoint/run_2023-10-30_22h50m54s/classic_cobotic_10s_v2_seed0_subject5"
+PATH = [#f"/store/travail/checkpoint/run_2024-03-21_15h45m40s/classic_cobotic_20s_v2_seed0_subject1",
+        f"/store/travail/checkpoint/run_2024-03-21_20h23m43s/classic_cobotic_20s_v2_seed0_subject2",
+        #f"/store/travail/checkpoint/run_2024-03-18_16h43m03s/classic_cobotic_20s_v2_seed0_subject3",
+        #f"/store/travail/checkpoint/run_2024-03-20_15h55m27s/classic_cobotic_20s_v2_seed0_subject4",
+        #f"/store/travail/checkpoint/run_2024-03-20_22h36m55s/classic_cobotic_20s_v2_seed0_subject5"
+        ]
 cfg['num_classes'] = 10
 model_type = 'Cobotic'
+global_acc_list = []
 
-mod = model.ConvModel(cfg)
-mod.load_state_dict(torch.load(PATH)['CONV'])
-mod.to('cuda')
-mod.eval()
+for idx, path in enumerate(PATH):
+    mod = model.ConvModel(cfg)
+    mod.load_state_dict(torch.load(path)['CONV'])
+    mod.to('cuda')
+    mod.eval()
 
-global_acc = 0
-total_nb_data = 0
-for test_subject in range (1, 6):
-    ## Creating the dataloader
-    dataset = hand_gesture_dataset.HGD('/home/travail/Dataset/ndrczc35bt-1',
-                                    depth=True,
-                                    test=False,
-                                    transform=False,
-                                    data_aug_parameter={'noise_factor': 0.2, 'nb_black_boxes': 10, 'rotation_max': 30, 'black_boxes_size': 8, 'resol': 1},
-                                    test_subject=test_subject)
+    global_acc = 0
+    total_nb_data = 0
+    for test_subject in range (1, 6):
+        ## Creating the dataloader
+        dataset = hand_gesture_dataset.HGD('/home/travail/Dataset/ndrczc35bt-1',
+                                        depth=True,
+                                        test=True,
+                                        transform=False,
+                                        data_aug_parameter={'noise_factor': 0.2, 'nb_black_boxes': 10, 'rotation_max': 30, 'black_boxes_size': 8, 'resol': 1},
+                                        test_subject=test_subject)
 
-    dataloader = DataLoader(dataset=dataset, batch_size=10, shuffle=True, drop_last=True)
+        dataloader = DataLoader(dataset=dataset, batch_size=10, shuffle=True, drop_last=True)
 
-    total_nb_data += len(dataloader)
+        total_nb_data += len(dataloader)
 
-    global_acc += test_model_on_data(mod, dataloader, model_type)
+        global_acc += test_model_on_data(mod, dataloader, model_type)
+        print(f"For model {idx}, Accuracy for subject {test_subject}: DONE")
 
-global_acc = (global_acc/total_nb_data) * 29/13
-print()
-print(f"La précision du modèle entraîné sur Cobotics et testé sur HANDS est de {global_acc}")
+    global_acc = (global_acc/total_nb_data) * 29/13
+    print()
+    print(f"La précision du modèle entraîné sur Cobotics et testé sur HANDS est de {global_acc}")
 
-# [INFO] Test of Hands model on cobotic data
+    global_acc_list.append(global_acc)
 
-# La précision du modèle entraîné sur HANDS et testé sur Cobotics est de 0.3507365066108787
-# [INFO] Test of cobotic model on Hands data
+print(global_acc_list)
 
-# La précision du modèle entraîné sur Cobotics et testé sur HANDS est de 0.9340512820512779
+# HANDS on COBOTIC dataset
+# Model 0: 0.33435592689471877
+# Model 1: 0.3290745020358757
+# Model 2: 0.37535532586704573
+# Model 3: 0.33599647848574893
+# Model 4: 0.376794406210055
+
+# COBOTIC on HANDS dataset
+# Model 0: 0.9699487179487192
+# Model 1: 0
+# Model 2: 0.9580512820512825
+# Model 3: 0.960512820512821
+# Model 4: 0.9735384615384622

@@ -14,10 +14,10 @@ test_every: 2000
 dropout : 0.3
 
 # network parameters
-name: 'classic_cobotic_10s_v2'
+name: 'classic_cobotic_20s_v2'
 num_classes: 10
 depth: True
-test_subject: 1
+test_subject: 2
  
 # Data settings
 dataset : 'CHD'

@@ -149,19 +149,20 @@ def count_associate_and_correct_for_ui_gi(associations, ui, gi):
     for group in associated_groups:
         at_least_one_hand_detected_in_group = False
         for ci_path in cis_path:
-            print(group[ci_path[1]][7:])
-            at_least_one_hand_detected_in_group = at_least_one_hand_detected_in_group or group[ci_path[1]][7:].replace('png', 'txt') in os.listdir(ci_path[0])
+            indice_path = 7 if len(ui) == 2 else 8  
+            at_least_one_hand_detected_in_group = at_least_one_hand_detected_in_group or group[ci_path[1]][indice_path:].replace('png', 'txt') in os.listdir(ci_path[0])
             
         if at_least_one_hand_detected_in_group:
             count+=1
     
     if count<100: print(f"Il n'y a pas suffisamment de mains détectés pour le geste {gi} de l'utilisateur {ui}: count = {count}")
+    #else: print(f"Ok pour le geste {gi} de l'utilisateur {ui}: count = {count}")
 
 def count_associate_and_correct_for_all():
     with open('association.json', "r") as file:
         associations = json.load(file)
     
-    for ui in ['u'+str(i) for i in range(1,11)]:
+    for ui in ['u'+str(i) for i in range(1,21)]:
         for gi in ['g'+str(i) for i in range(1,18)]:
             count_associate_and_correct_for_ui_gi(associations, ui, gi)
 
@@ -190,7 +191,7 @@ def increase_associate_for_one_gesture_one_user(ui, gi, min_image):
         verify_annotation('/store/travail/data_sorted/' + ui +'/'+ gi +'/'+ci)
 
 def verify_all_annotation():
-    for ui in ['u'+str(i) for i in range (1, 11)]:
+    for ui in ['u'+str(i) for i in range (1, 21)]:
         for gi in ['g'+str(i) for i in range (1, 18)]:
             for ci in ['c' + str(i) for i in range(1,7)]:
                 verify_annotation('/store/travail/data_sorted/' + ui +'/'+ gi +'/'+ci)
@@ -204,7 +205,7 @@ folder2 = '/store/travail/data_sorted'
 count_associate_and_correct_for_all()
 
 # moving_associated_data(folder2)
-# increase_associate_for_one_gesture_one_user('u6', 'g16', 115)
+# increase_associate_for_one_gesture_one_user('u11', 'g4', 120)
 # verify_all_annotation()
 # verify_annotation('/store/travail/data_sorted/u1/g3/c1')
 

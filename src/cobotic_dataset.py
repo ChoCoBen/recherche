@@ -23,8 +23,8 @@ class CHD(Dataset):
         self.path_to_dataset = path_to_dataset
         self.cfg = cfg
         self.gi_to_i = {'g1':1, 'g2':2, 'g3':3, 'g4':4, 'g5':5, 'g6':6, 'g7':7, 'g8':8, 'g9':9, 'g10':1, 'g11':2, 'g12':3, 'g13':4, 'g14':5, 'g15':6, 'g16':10, 'g17':10}
-        subjects = ['u'+str(i) for i in range (1, 11)]
-        subject_to_subjects = {1:(subjects[2:10],subjects[0:2]), 2:(subjects[0:2]+subjects[4:10],subjects[2:4]), 3:(subjects[0:4]+subjects[6:10],subjects[4:6]), 4:(subjects[0:6]+subjects[8:10],subjects[6:8]), 5:(subjects[0:8],subjects[8:10])}
+        subjects = ['u'+str(i) for i in range (1, 21)]
+        subject_to_subjects = {1:(subjects[4:20],subjects[0:4]), 2:(subjects[0:4]+subjects[8:20],subjects[4:8]), 3:(subjects[0:8]+subjects[12:20],subjects[8:12]), 4:(subjects[0:12]+subjects[16:20],subjects[12:16]), 5:(subjects[0:16],subjects[16:20])}
         train_subjects, test_subjects = subject_to_subjects[test_subject]
 
         subjects = test_subjects if test else train_subjects
